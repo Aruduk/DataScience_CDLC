@@ -1,6 +1,6 @@
 👀 New Developer: How to build Machine learning project?
 
-😀💻 Manager : 
+😀💻 Manager
 ## Roadmap to build a machine learning project:
 
 1. **Define the Objective**: 
@@ -45,10 +45,10 @@
    - If your project has an application (like a web app), consider deploying the model using tools like Flask, Django, or platforms like Heroku, AWS, or Google Cloud.
    
 10. **Documentation & Presentation**:
-   - Document your steps, methodologies, and results.
-   - Present your findings, either through a report, a slide deck, or a demo.
+    - Document your steps, methodologies, and results.
+    - Present your findings, either through a report, a slide deck, or a demo.
 
 11. **Feedback & Improvement**:
-   - Gather feedback on your project, be it from peers, mentors, or online communities.
-   - Use this feedback for further iterations and improvements.
+    - Gather feedback on your project, be it from peers, mentors, or online communities.
+    - Use this feedback for further iterations and improvements.
 
