@@ -1,6 +1,6 @@
 👀 New Developer: How to build Machine learning project?
 
-😀💻 Manager
+😀💻 Manager : 
 ## Roadmap to build a machine learning project:
 
 1. **Define the Objective**: 
