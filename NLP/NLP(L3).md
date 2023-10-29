@@ -35,7 +35,6 @@ print(sentiment_score4)
 ### NLTK Terms
 
 
-
 | Term                           | Explanation                                                                      | Example                                       |
 |--------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------|
 | Tokenization                    | Breaking down text into individual words or tokens.                              | "NLTK is powerful" → ["NLTK", "is", "powerful"] |
@@ -58,3 +57,31 @@ print(sentiment_score4)
 | Syntax Tree                    | A graphical representation of sentence syntactic structure.                       | Diagram showing sentence structure.           |
 | Bag of Words (BoW)            | Text representation as a collection of words, ignoring word order.                | Creating a BoW model for text classification. |
 | TF-IDF                         | A numerical representation of word importance in a document collection.          | Calculating TF-IDF scores for document keywords. |
+
+
+### Example:
+
+```Python
+from nltk.sentiment import SentimentIntensityAnalyzer
+nltk.download('vader_lexicon')
+
+def analyze_sentiment(input_text):
+    analyzer = SentimentIntensityAnalyzer()
+    sentiment_score = analyzer.polarity_scores(input_text)
+    
+    # Extract positive and negative sentiment scores
+    positive_score = sentiment_score['pos'] * 100
+    negative_score = sentiment_score['neg'] * 100
+    
+    print("Sentiment Analysis:")
+    print(f"Positive: {positive_score:.2f}%")
+    print(f"Negative: {negative_score:.2f}%")
+
+# Input text
+input_text = "I love that toy."
+
+# Analyze sentiment
+analyze_sentiment(input_text)
+
+
+```
