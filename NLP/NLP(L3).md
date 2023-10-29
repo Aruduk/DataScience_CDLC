@@ -34,7 +34,7 @@ print(sentiment_score4)
 
 ### NLTK Terms
 
-Certainly! Here's the table with terms used in NLTK, along with brief explanations and examples in the last column:
+
 
 | Term                           | Explanation                                                                      | Example                                       |
 |--------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------|
